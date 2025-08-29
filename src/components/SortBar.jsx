@@ -15,6 +15,7 @@ export default function SortBar({ sort, setSort, stops, setStops }){
           <option value="any">Any</option>
           <option value="nonstop">Non‑stop</option>
           <option value="1+">1+ stops</option>
+          <option value="2+">2+ stops</option>
         </select>
       </div>
     </div>

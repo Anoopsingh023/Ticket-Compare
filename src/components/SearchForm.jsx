@@ -4,7 +4,7 @@ export default function SearchForm({ onSearch, loading }){
   const [from, setFrom] = useState('DEL')
   const [to, setTo] = useState('BOM')
   const [date, setDate] = useState(() => new Date().toISOString().slice(0,10))
-  const [mode, setMode] = useState('flight')
+  const [mode, setMode] = useState('bus')
 
   function submit(e){
     e.preventDefault()
@@ -32,8 +32,8 @@ export default function SearchForm({ onSearch, loading }){
         <div className="vstack">
           <label className="label" htmlFor="mode">Travel Type</label>
           <select id="mode" className="input" value={mode} onChange={e=>setMode(e.target.value)}>
-            <option value="flight">Flight</option>
             <option value="bus">Bus</option>
+            <option value="flight">Flight</option>
             <option value="train">Train</option>
           </select>
         </div>

@@ -57,18 +57,21 @@ export default function App() {
   }
 
   const filteredSorted = useMemo(() => {
-    let list = [...items];
-    if (stops === "nonstop") list = list.filter((x) => x.stops === 0);
-    if (stops === "1+") list = list.filter((x) => x.stops >= 1);
+  let list = [...items];
 
-    if (sort === "price") list.sort((a, b) => a.price - b.price);
-    if (sort === "duration")
-      list.sort((a, b) => a.durationMinutes - b.durationMinutes);
-    if (sort === "depart")
-      list.sort((a, b) => new Date(a.departure) - new Date(b.departure));
+  // ✅ Filtering
+  if (stops === "nonstop") list = list.filter((x) => x.stops === 0);
+  if (stops === "1+") list = list.filter((x) => x.stops >= 1);
+  if (stops === "2+") list = list.filter((x) => x.stops >= 2);
 
-    return list;
-  }, [items, sort, stops]);
+  // ✅ Sorting (non-mutating)
+  if (sort === "price") return list =  [...list].sort((a, b) => a.price - b.price);
+  if (sort === "duration") return list = [...list].sort((a, b) => a.durationMinutes - b.durationMinutes);
+  if (sort === "depart") return list = [...list].sort((a, b) => new Date(a.departure) - new Date(b.departure));
+
+  return list;
+}, [items, sort, stops]);
+
 
   return (
     <>

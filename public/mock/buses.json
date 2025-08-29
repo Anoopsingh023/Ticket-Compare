@@ -3,14 +3,38 @@
     {
       "id": "BUS1",
       "operator": "RedBus Partner",
-      "price": 1200,
+      "price": 1000,
       "currency": "INR",
       "from": "Delhi",
-      "to": "Jaipur",
+      "to": "Mumbai",
       "departure": "2025-09-05T07:00:00+05:30",
       "arrival": "2025-09-05T12:30:00+05:30",
       "durationMinutes": 330,
       "stops": 1
+    },
+    {
+      "id": "BUS2",
+      "operator": "Zing Partner",
+      "price": 1200,
+      "currency": "INR",
+      "from": "Delhi",
+      "to": "Mumbai",
+      "departure": "2025-09-05T07:00:00+06:30",
+      "arrival": "2025-09-05T12:30:00+07:20",
+      "durationMinutes": 280,
+      "stops": 2
+    },
+    {
+      "id": "BUS3",
+      "operator": "Intercity Partner",
+      "price": 1500,
+      "currency": "INR",
+      "from": "Delhi",
+      "to": "Mumbai",
+      "departure": "2025-09-05T07:00:00+08:30",
+      "arrival": "2025-09-05T12:30:00+07:30",
+      "durationMinutes": 390,
+      "stops": 0
     }
   ]
 }
