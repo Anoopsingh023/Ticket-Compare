@@ -23,7 +23,7 @@ npm run dev
 3. (Optional) Create `.env` from `.env.example` and add RapidAPI credentials:
 ```
 VITE_RAPIDAPI_KEY=your_key
-VITE_FLIGHT_API_HOST=skyscanner80.p.rapidapi.com
+VITE_FLIGHT_API_HOST=booking-com15.p.rapidapi.com
 VITE_FLIGHT_API_URL=https://booking-com15.p.rapidapi.com/api/v1/flights/searchFlights
 ```
 
@@ -31,4 +31,10 @@ If `.env` is not provided the app uses the mock data in `public/mock/`.
 
 
 
+## 🚀 Deployment
 
+This project is live and accessible at:
+
+🔗 [ticket-compare-theta.vercel.app](https://ticket-compare-theta.vercel.app/)
+
+[![Live Site](https://img.shields.io/badge/Live-Demo-blue)](https://ticket-compare-theta.vercel.app/)
