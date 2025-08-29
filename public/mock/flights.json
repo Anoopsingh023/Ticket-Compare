@@ -1,0 +1,28 @@
+{
+  "itineraries": [
+    {
+      "id": "FLT1",
+      "price": 5643,
+      "currency": "INR",
+      "carrier": "IndiGo",
+      "stops": 0,
+      "durationMinutes": 125,
+      "departure": "2025-09-05T07:15:00+05:30",
+      "arrival": "2025-09-05T09:20:00+05:30",
+      "from": "DEL",
+      "to": "BOM"
+    },
+    {
+      "id": "FLT2",
+      "price": 6120,
+      "currency": "INR",
+      "carrier": "Air India",
+      "stops": 1,
+      "durationMinutes": 185,
+      "departure": "2025-09-05T10:00:00+05:30",
+      "arrival": "2025-09-05T13:05:00+05:30",
+      "from": "DEL",
+      "to": "BOM"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "trips": [
+    {
+      "id": "BUS1",
+      "operator": "RedBus Partner",
+      "price": 1200,
+      "currency": "INR",
+      "from": "Delhi",
+      "to": "Jaipur",
+      "departure": "2025-09-05T07:00:00+05:30",
+      "arrival": "2025-09-05T12:30:00+05:30",
+      "durationMinutes": 330,
+      "stops": 1
+    }
+  ]
+}

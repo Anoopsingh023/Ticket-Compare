@@ -1,0 +1,16 @@
+{
+  "trips": [
+    {
+      "id": "TRN1",
+      "operator": "Indian Railways",
+      "price": 850,
+      "currency": "INR",
+      "from": "Delhi (NDLS)",
+      "to": "Agra (AGC)",
+      "departure": "2025-09-05T06:10:00+05:30",
+      "arrival": "2025-09-05T08:05:00+05:30",
+      "durationMinutes": 115,
+      "stops": 0
+    }
+  ]
+}
